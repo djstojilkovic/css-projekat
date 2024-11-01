@@ -1,128 +1,249 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
 }
 @font-face {
-    font-family: h1SlikaFont;
-    src: url(./assets/fonts/fontawesome-webfont.woff);
+  font-family: h1SlikaFont;
+  src: url(./assets/fonts/fontawesome-webfont.woff);
 }
-#header{
-color: orange;
-text-align: center;
-font-size: 100%;
-padding-top: 40px;
-padding-bottom: px;;
-
+#header {
+  color: orange;
+  text-align: center;
+  font-size: 100%;
+  padding-top: 40px;
+  padding-bottom: px;
 }
-.build-border{
-    border: 4px solid grey;
-    border-right: 0;
+.build-border {
+  border: 4px solid grey;
+  border-right: 0;
 }
-.estate{
- color: rgb(112, 111, 111)
+.estate {
+  color: rgb(112, 111, 111);
 }
-#head-menu{
-    background-color: rgb(127, 194, 247);
-    color: white;
-    padding: 10px;
-    margin: 30px;
-    text-align: center;
+#head-menu {
+  background-color: rgb(127, 194, 247);
+  color: white;
+  padding: 10px;
+  margin: 30px;
+  text-align: center;
 }
-#head-menu div{
-    margin-top: 15px;
-    padding: 3px;
-    font-size: 100%;
+#head-menu div {
+  margin-top: 15px;
+  padding: 3px;
+  font-size: 100%;
 }
-#picture{
-    width: 100%;
-    height: 200px;
-    background-image: url(./assets/images/banner3.jpg);
-    background-size: cover;
-    text-align: center;
-    color: white;
-    padding-top: 25%;
-    
+#picture {
+  width: 100%;
+  height: 200px;
+  background-image: url(./assets/images/banner3.jpg);
+  background-size: cover;
+  text-align: center;
+  color: white;
+  padding-top: 25%;
 }
-#picture h1{
-    font-size: 150%;
-    font-weight: normal;
-    font-family: h1SlikaFont;
+#picture h1 {
+  font-size: 150%;
+  font-weight: normal;
+  font-family: h1SlikaFont;
 }
-#picture button{
-    background-color: rgb(51, 105, 230);
-    color: white;
-    width: 130px;
-    height: 40px;
-    border: 0px;
-    border-radius: 55px;
-    margin-top: 40px;
-    font-size: 105%;
+#picture button {
+  background-color: rgb(51, 105, 230);
+  color: white;
+  width: 130px;
+  height: 40px;
+  border: 0px;
+  border-radius: 55px;
+  margin-top: 40px;
+  font-size: 105%;
 }
-#head2{
-    text-align: center;
-    font-family: h1SlikaFont;
-    padding-top: 40px;
-    font-weight:lighter;
+#head2 {
+  text-align: center;
+  font-family: h1SlikaFont;
+  padding-top: 40px;
+  font-weight: lighter;
 }
-#simbol{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
+#simbol {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }
 .left-line {
-    border: 1px solid black;
-    width: 11%;
-    margin-right: 7px;
+  border: 1px solid black;
+  width: 11%;
+  margin-right: 7px;
 }
-.square{
+.square {
   width: 20px;
   height: 20px;
   border: 2px solid black;
   rotate: 45deg;
- }
-.right-line{
-    border: 1px solid black;
-    width: 11%;
-    margin-left: 7px;
 }
-#head3{
-    margin: 30px;
+.right-line {
+  border: 1px solid black;
+  width: 11%;
+  margin-left: 7px;
 }
-#head3 h3{
-    color: rgb(127, 194, 247);
+#head3 {
+  margin: 30px;
 }
-#head3 p{
-    padding-top: 20px;
-    font-size: 90%;
+#head3 h3 {
+  color: rgb(127, 194, 247);
 }
-#head3 ul{
-    margin: 30px;
-    margin-left: 20px;
+#head3 p {
+  padding-top: 20px;
+  font-size: 90%;
 }
-#head3 li{
-    padding: 10px;
-    text-align: left;
-    list-style-image: url(./assets/images/arrow_bullet.png) ;
+#head3 ul {
+  margin: 30px;
+  margin-left: 20px;
+}
+#head3 li {
+  padding: 10px;
+  text-align: left;
+  list-style-image: url(./assets/images/arrow_bullet.png);
+}
+#picture2 {
+  width: 100%;
+  height: 350px;
+  background-image: url(./assets/images/about.jpg);
+  color: white;
+  background-size: cover;
+  margin-bottom: 20px;
+}
+#head4 {
+  text-align: center;
+  font-family: h1SlikaFont;
+  padding-top: 40px;
+  font-weight: lighter;
+}
+#simbol2 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+.cards {
+  width: 80%;
+  background-color: rgb(127, 194, 247);
+  display: flex;
+  justify-self: center;
+  flex-wrap: wrap;
+  align-content: flex-start center;
+  margin-bottom: 15px;
+  padding: 15px;
+}
+.reviewer {
+  align-self: center;
+  width: 70px;
+  height: 70px;
+  border: 2px solid whitesmoke;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.rev-img {
+  aspect-ratio: 1/1;
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  margin-top: 3px;
+}
+.rev-name {
+  margin-left: 15px;
+  font-size: 17;
+  align-self: center;
+  font-weight: bold;
+}
+.stars {
+  font-size: 17;
+  color: white;
+}
+.rev-text {
+  color: white;
+}
 
+.contact-box1 {
+  width: 50%;
+  height: 170px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgb(44, 221, 152);
+  justify-content: center;
+  align-content: center;
 }
-#picture2{
-    width: 100%;
-    height: 350px;
-    background-image: url(./assets/images/about.jpg);
-    color: white;
-    background-size: cover;
-    margin-bottom: 20px;
+.contact-box2 {
+  width: 50%;
+  height: 170px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgb(255, 79, 129);
+  justify-content: center;
+  align-content: center;
 }
-#head4{
-    text-align: center;
-    font-family: h1SlikaFont;
-    padding-top: 40px;
-    font-weight:lighter;
+.contact-box3 {
+  width: 50%;
+  height: 170px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgb(51, 105, 230);
+  justify-content: center;
+  align-content: center;
 }
-#simbol2{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
+.contact-box4 {
+  width: 50%;
+  height: 170px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgb(127, 194, 247);
+}
+.contact {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.contact-img {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  left: 15px;
+}
+.icons {
+  width: 20px;
+  height: 20px;
+  padding-bottom: 120px;
+}
+.contact-head {
+  padding-top: 133px;
+}
+.form {
+  margin: 30px;
+}
+#fname {
+  width: 354px;
+  height: 30px;
+  margin-bottom: 15px;
+}
+#email {
+  width: 354px;
+  height: 30px;
+  margin-bottom: 15px;
+}
+#phone {
+  width: 354px;
+  height: 30px;
+  margin-bottom: 15px;
+}
+.submit {
+  background-color: rgb(243, 156, 18);
+  color: white;
+  width: 100px;
+  height: 30px;
+  border: 0px;
+  margin-left: 27px;
 }
